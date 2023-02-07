@@ -1,9 +1,7 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": {
-            "excludeFiles": "public/**"
-          }
+        "api/index.php": { "runtime": "vercel-php@0.5.2","excludeFiles": "public/**" }
     },
     "routes": [{
         "src": "/(.*)",
